@@ -67,6 +67,7 @@ public class SnakeGame extends JPanel implements ActionListener{
          
  		g.drawString(" �������:" + s.lenght +"  (min. = 50 )", 1, 10);
 	}
+	
 
 	public static void main(String[] args) {
 		
@@ -99,7 +100,9 @@ public class SnakeGame extends JPanel implements ActionListener{
 	repaint();
 	}
 	
+	
 	private class keyAdapter extends KeyAdapter{
+		
 		public void keyPressed(KeyEvent e){
 			int key = e.getKeyCode();
 			
