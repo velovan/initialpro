@@ -38,8 +38,8 @@ public class Snake {
 				
 				for(int d = lenght-1; d>0; d--){
 					if(snakeX[0] == snakeX[d] & snakeY[0] == snakeY[d]){
-						JOptionPane.showMessageDialog(null,  "Snake" );
-						lenght = d-1;
+					   JOptionPane.showMessageDialog(null,  "Snake" );
+					   lenght = d-1;
 					}
 					
 				}
@@ -62,4 +62,5 @@ public class Snake {
 				lenght = 1;
 			}	
 		}
+	
 }
