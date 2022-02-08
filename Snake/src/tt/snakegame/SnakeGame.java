@@ -64,7 +64,6 @@ public class SnakeGame extends JPanel implements ActionListener{
          g.setColor(color(200,10,0));
          g.fillRect(apple.posX* SCALE+1, apple.posY* SCALE+1, SCALE-1, SCALE-1);
          
-         
  		g.drawString(" �������:" + s.lenght +"  (min. = 50 )", 1, 10);
 	}
 	
@@ -103,13 +102,13 @@ public class SnakeGame extends JPanel implements ActionListener{
 	
 	private class keyAdapter extends KeyAdapter{
 		
-		public void keyPressed(KeyEvent e){
-			int key = e.getKeyCode();
+	     public void keyPressed(KeyEvent e){
+		 int key = e.getKeyCode();
 			
-			if((key ==  KeyEvent.VK_RIGHT) &  s.direction != 2) s.direction = 0;
-			if((key ==  KeyEvent.VK_DOWN)  &  s.direction != 3) s.direction = 1;
-			if((key ==  KeyEvent.VK_LEFT)  &  s.direction != 0) s.direction = 2;
-			if((key ==  KeyEvent.VK_UP)    &  s.direction != 1) s.direction = 3;
+		 if((key ==  KeyEvent.VK_RIGHT) &  s.direction != 2) s.direction = 0;
+		 if((key ==  KeyEvent.VK_DOWN)  &  s.direction != 3) s.direction = 1;
+		 if((key ==  KeyEvent.VK_LEFT)  &  s.direction != 0) s.direction = 2;
+		 if((key ==  KeyEvent.VK_UP)    &  s.direction != 1) s.direction = 3;
 		}
 	}
 	
