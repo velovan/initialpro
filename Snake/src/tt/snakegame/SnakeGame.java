@@ -80,7 +80,7 @@ public class SnakeGame extends JPanel implements ActionListener{
 	}
 
 	
-	public void actionPerformed(ActionEvent arg0) {
+	public void actionPerformed(ActionEvent arg0){
         s.move();
         if((s.snakeX[0] == apple.posX) & (s.snakeY[0] == apple.posY)){
              apple.setRandomPosition();
@@ -94,8 +94,8 @@ public class SnakeGame extends JPanel implements ActionListener{
         for(int k = 1;k < s.lenght; k++){
         if((s.snakeX[k] == apple.posX) & (s.snakeY[k] == apple.posY)){
             apple.setRandomPosition();
-        }
-     }
+           }
+         }
 	repaint();
 	}
 	
