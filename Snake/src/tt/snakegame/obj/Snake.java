@@ -4,15 +4,12 @@ import javax.swing.JOptionPane;
 
 import tt.snakegame.SnakeGame;
 
-public class Snake {
+public class Snake{
 	
-	   public int direction =1;
+	        public int direction =1;
 		public int lenght = 1;
-		
 		public int snakeX[] = new int[1000];
-		public int snakeY[] = new int[1000];
-		
-		
+		public int snakeY[] = new int[1000];		
 		SnakeGame sn;
 		
 		public Snake (int x0 ,int y0, int x1, int y1){
