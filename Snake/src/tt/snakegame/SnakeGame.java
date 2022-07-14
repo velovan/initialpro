@@ -65,11 +65,9 @@ public class SnakeGame extends JPanel implements ActionListener{
          g.fillRect(apple.posX* SCALE+1, apple.posY* SCALE+1, SCALE-1, SCALE-1);
          
  		g.drawString(" �������:" + s.lenght +"  (min. = 50 )", 1, 10);
-	}
-	
+	}	
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args){		
 		JFrame f = new JFrame("Snake");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setResizable(false);
