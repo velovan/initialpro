@@ -25,20 +25,16 @@ public class Snake{
 				  snakeY[d] = snakeY[d-1];
 				}
 				
-				if(direction == 0)snakeX[0]++;
-				
+				if(direction == 0)snakeX[0]++;		
 				if(direction == 1)snakeY[0]++;
-				
 				if(direction == 2)snakeX[0]--;
-				
 				if(direction == 3)snakeY[0]--;
 				
 				for(int d = lenght-1; d>0; d--){
 					if(snakeX[0] == snakeX[d] & snakeY[0] == snakeY[d]){
 					   JOptionPane.showMessageDialog(null,  "Snake" );
 					   lenght = d-1;
-					}
-					
+					}				
 				}
 			
 			
