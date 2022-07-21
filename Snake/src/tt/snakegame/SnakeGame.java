@@ -76,7 +76,6 @@ public class SnakeGame extends JPanel implements ActionListener{
 		f.add(new SnakeGame());
 	    f.setVisible(true);
 	}
-
 	
 	public void actionPerformed(ActionEvent arg0){
         s.move();
@@ -95,7 +94,6 @@ public class SnakeGame extends JPanel implements ActionListener{
          }
 	repaint();
 	}
-	
 	
 	private class keyAdapter extends KeyAdapter{
 		
