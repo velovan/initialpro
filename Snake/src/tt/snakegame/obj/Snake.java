@@ -49,8 +49,7 @@ public class Snake{
 			}
 			if(snakeY[0] < 0){
 				snakeY[0] = sn.HEIGHT-1;
-			}
-			
+			}	
 			if(lenght < 1){
 				lenght = 1;
 			}	
