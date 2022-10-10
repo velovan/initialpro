@@ -16,7 +16,7 @@ import javax.swing.Timer;
 import tt.snakegame.obj.Apple;
 import tt.snakegame.obj.Snake;
 
-public class SnakeGame extends JPanel implements ActionListener{
+public class SnakeGame extends JPanel implements ActionListener {
 	
 	public static final int SCALE =30;
 	public static final int WIDTH = 20;
@@ -27,7 +27,7 @@ public class SnakeGame extends JPanel implements ActionListener{
 	Snake s = new Snake(0,0, 15,10);
 	Timer t = new Timer ((int) (100/SPEED), this);
 	
-	public SnakeGame(){
+	public SnakeGame() {
 		t.start();
 		addKeyListener(new keyAdapter());
 		setFocusable(true);
@@ -37,7 +37,7 @@ public class SnakeGame extends JPanel implements ActionListener{
     	return new Color (red, green, blue);
     }
 	
-	public void paint(Graphics g){
+	public void paint(Graphics g) {
          g.setColor( color(5,50,10));
          g.fillRect(0, 0, WIDTH*SCALE, HEIGHT*SCALE);
          g.setColor(color(255,216,0));
