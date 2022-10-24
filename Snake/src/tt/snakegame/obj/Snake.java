@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import tt.snakegame.SnakeGame;
 
-public class Snake{
+public class Snake {
 	
 	        public int direction =1;
 		public int lenght = 1;
@@ -19,7 +19,7 @@ public class Snake{
 		  snakeY[1] = y1;
 		}
 		
-		public void move(){
+		public void move() {
 			 for(int d = lenght; d > 0; d--){
 				  snakeX[d] = snakeX[d-1];
 				  snakeY[d] = snakeY[d-1];
