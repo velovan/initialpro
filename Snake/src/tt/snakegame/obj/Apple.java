@@ -2,13 +2,13 @@ package tt.snakegame.obj;
 
 import tt.snakegame.SnakeGame;
 
-public class Apple {
+public class Apple{
  
 	public int posX;
 	public int posY;
 	SnakeGame main;
 	
-	public Apple(int stX, int stY) {
+	public Apple(int stX, int stY){
 	  posX = stX;
 	  posY = stY;
 	}
