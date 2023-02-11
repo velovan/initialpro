@@ -2,7 +2,7 @@ package tt.snakegame.obj;
 
 import tt.snakegame.SnakeGame;
 
-public class Apple{
+public class Apple {
  
 	public int posX;
 	public int posY;
