@@ -8,7 +8,7 @@ public class Apple{
 	public int posY;
 	SnakeGame main;
 	
-	public Apple(int stX, int stY) {
+	public Apple(int stX, int stY){
 	  posX = stX;
 	  posY = stY;
 	}
