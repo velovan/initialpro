@@ -16,7 +16,7 @@ import javax.swing.Timer;
 import tt.snakegame.obj.Apple;
 import tt.snakegame.obj.Snake;
 
-public class SnakeGame extends JPanel implements ActionListener{
+public class SnakeGame extends JPanel implements ActionListener {
 	
 	public static final int SCALE =30;
 	public static final int WIDTH = 20;
