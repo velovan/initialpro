@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import tt.snakegame.SnakeGame;
 
-public class Snake{
+public class Snake {
 	
 	        public int direction =1;
 		public int lenght = 1;
