@@ -6,7 +6,7 @@ import tt.snakegame.SnakeGame;
 
 public class Snake {
 	
-	    public int direction =1;
+	    public int direction = 1;
 		public int lenght = 1;
 		public int snakeX[] = new int[1000];
 		public int snakeY[] = new int[1000];		
@@ -56,5 +56,6 @@ public class Snake {
 		}
 	
 }
+
 
 
